@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <EditText
+        android:id="@+id/ET_phrase"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="actionNext|flagNoEnterAction"
+        android:hint="Phrase"/>
+    <EditText
+        android:id="@+id/ET_pronunciation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="actionNext|flagNoEnterAction"
+        android:hint="Pronunciation (optional)"/>
+    <EditText
+        android:id="@+id/ET_translation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:imeOptions="actionNext|flagNoEnterAction"
+        android:hint="Translation (optional)"/>
+</LinearLayout>
